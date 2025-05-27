@@ -1,0 +1,106 @@
+<!-- Startbildschirm mit Intro -->
+<header class="start-screen" id="home">
+    <h1>Willkommen zu <span class="highlight">Blob Jump</span></h1>
+    <p>Schau dir unser kurzes Intro-Video an:</p>
+
+    <video controls width="600" poster="doodler.png">
+        <source src="BlopJumpIntro.mp4" type="video/mp4">
+        Dein Browser unterstützt kein HTML5 Video.
+    </video>
+
+    <p class="music-credit">
+        Musik: „Electro music for Doodle Jump“ von LePetitJimmy. Quelle: YouTube. Verwendet zu Lern-/Demozwecken.
+    </p>
+
+    <div class="menu-buttons">
+        <a href="#developer" class="btn">Über den Entwickler</a>
+        <a href="#instructions" class="btn">Spiel & Anleitung</a>
+        <a href="#coding" class="btn">Spielprozess / Codierung</a>
+        <a href="#leaderboard" class="btn">Leaderboard</a>
+        <a href="#thanks" class="btn">Dankeschön & Spiel-Link</a>
+    </div>
+</header>
+
+<!-- Über Entwickler -->
+<section id="developer" class="section">
+    <h2>Über den Entwickler</h2>
+    <p>
+        Dieses Spiel wurde von zwei stailen und leidenschaftlichen Scratch-Programmierer erstellt, die versuchen eine gute Note zu bekommen. Wir haben kreative Ideen und Spielfreude kombiniert und daraus wurde BLOP JUMP.
+    </p>
+</section>
+
+<!-- Spiel & Anleitung -->
+<section id="instructions" class="section">
+    <h2>Spiel & Anleitung</h2>
+    <img src="doodler.png" alt="Spielfigur Doodler" class="sprite">
+    <p>
+        Du steuerst einen Blob, der automatisch springt. 
+    Ziel: Plattformen treffen und möglichst hoch kommen! Aber aufpassen auf dem weg nach oben kommen dir Gegner entgegen.<br><br>
+        🎮 Steuerung:<br>
+        ➤ Links/Rechts Pfeiltasten zum Bewegen<br>
+        ➤ Der Blob springt automatisch bei Plattformkontakt
+    </p>
+</section>
+
+<!-- Codierung -->
+<section id="coding" class="section">
+    <h2>Spielprozess / Codierung</h2>
+    <p>
+     🎮 Spielmechanik
+
+    <br> -Der Blob fällt ständig nach unten – sobald er eine Plattform
+      berührt, springt er wieder hoch.
+
+    <br> -Plattformen erscheinen zufällig auf dem Bildschirm und bewegen sich langsam nach unten.
+
+   <br> -Es gibt Gegner, die dem Spieler ausweichen oder ihn bei Kollision ausschalten.<br>
+      
+     <br> ⚙️ Wichtige Variablen & Logik
+
+    <br>Jumping: Steuert, ob der Blob gerade springt.
+
+   <br> Dead: Erkennt, ob das Spiel vorbei ist.
+
+   <br> Power-Up: Aktiviert einen höheren Sprung für kurze Zeit.
+
+    <br>Start: Kontrolliert den Beginn des Spiels.<br>
+      
+      <br>💡 Besonderheiten im Code
+
+   <br>-Die Plattformen werden zufällig erzeugt, wodurch jede Runde einzigartig ist.
+
+    <br>-Kollisionsabfragen basieren auf Farben und Positionen.<br>
+      
+      .</p>
+    <img src="ScratchCodeDoodler1.PNG" alt="Code Screenshot 1" class="code-img">
+    <img src="ScratchCodeDoodler2.PNG" alt="Code Screenshot 2" class="code-img">
+
+    <h3>Gegner im Spiel</h3>
+    <img src="Gegner.PNG" alt="Gegner" class="code-img">
+</section>
+
+<!-- Leaderboard -->
+<section id="leaderboard" class="section">
+    <h2>🏆 Leaderboard</h2>
+    <table class="leaderboard-table">
+        <tr>
+            <th>Platz</th>
+            <th>Name</th>
+            <th>Punkte</th>
+        </tr>
+        <tr><td>1</td><td>Cola Light</td><td>14 938</td></tr>
+        <tr><td>2</td><td>Cola</td><td>8 900</td></tr>
+        <tr><td>3</td><td>Nazar</td><td>7 289</td></tr>
+        <tr><td>4</td><td>Jaroslaw</td><td>6 904</td></tr>
+    </table>
+</section>
+
+<!-- Dankeschön -->
+<section id="thanks" class="section">
+    <h2>Danke fürs Spielen!</h2>
+    <p>
+        Wir hoffen, dir hat <strong>Blob Jump</strong> gefallen!<br><br>
+        ➡️ Hier kannst du das Spiel spielen:<br>
+        <a href="https://scratch.mit.edu/" target="_blank" class="btn">Blob Jump auf Scratch</a>
+    </p>
+</section>
